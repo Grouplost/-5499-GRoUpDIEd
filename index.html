@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroupDIed #5499 | Official Page</title>
+    <style>
+        /* ستايل Void الفخم */
+        :root {
+            --primary: #ff0000;
+            --bg: #0a0a0a;
+            --card: #151515;
+            --text: #eeeeee;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            height: 60vh;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://i.imgur.com/9iTqyDB.png') center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        header h1 {
+            font-size: 4rem;
+            color: var(--primary);
+            margin: 0;
+            text-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #aaa;
+            max-width: 600px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: #fff;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: var(--primary);
+            margin: 10px auto;
+        }
+
+        /* ستايل قسم المؤسسين */
+        .founders-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .founder-card {
+            background: var(--card);
+            border: 1px solid #222;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .founder-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(255, 0, 0, 0.2);
+        }
+
+        .founder-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid var(--primary);
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .founder-card h3 {
+            margin: 10px 0 5px;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .founder-card .role {
+            font-size: 0.9rem;
+            color: var(--primary);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #555;
+            font-size: 0.9rem;
+            border-top: 1px solid #111;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="home">
+        <h1>GroupDIed #5499</h1>
+        <p>بين الظل والنور نحن أسطورة لم تُكتب بعد. سيرفر القمة والتميز.</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">طاقم الإدارة والمؤسسين</h2>
+        
+        <div class="founders-grid">
+            
+            <a href="https://discord.com/users/919483065087168533" target="_blank" class="founder-card">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=919483065087168533" alt="Owner">
+                <h3>Owner</h3>
+                <p class="role">المالك الأساسي</p>
+            </a>
+
+            <a href="https://discord.com/users/1179893397016817855" target="_blank" class="founder-card">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=1179893397016817855" alt="Founder">
+                <h3>Founder</h3>
+                <p class="role">مؤسس السيرفر</p>
+            </a>
+
+            <a href="https://discord.com/users/1445170812352204941" target="_blank" class="founder-card">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=1445170812352204941" alt="Founder">
+                <h3>Founder</h3>
+                <p class="role">مؤسس السيرفر</p>
+            </a>
+
+            <a href="https://discord.com/users/1322272211910000690" target="_blank" class="founder-card">
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=1322272211910000690" alt="Founder">
+                <h3>Founder</h3>
+                <p class="role">مؤسس السيرفر</p>
+            </a>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 GroupDIed #5499. جميع الحقوق محفوظة لـ Void.</p>
+    </footer>
+
+</body>
+</html>
